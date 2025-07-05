@@ -17,7 +17,7 @@ use App\Http\Controllers\MahasiswaController;
 
 // Halaman Beranda
 Route::get('/', function () {
-    return view('welcome'); // Kita akan buat file welcome.blade.php di langkah selanjutnya
+    return view('welcome');
 });
 
 // Resource Routes untuk Prodi
